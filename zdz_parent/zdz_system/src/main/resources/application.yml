@@ -1,0 +1,22 @@
+server:
+  port: 9001
+
+spring:
+  application:
+    name: zdz-system
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://39.97.177.142:3306/zdz?useUnicode=true&characterEncoding=utf8
+    username: root
+    password: Dezhe@yun888..
+  jpa:
+    database: mysql
+    show-sql: true
+    open-in-view: true
+  redis:
+    host: 127.0.0.1
+    port: 6379
+jwt:
+  config:
+    key: zdz
+    ttl: 3600000
